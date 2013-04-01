@@ -8,7 +8,7 @@
 	$config['owner_email'] = 'shellyk@si.edu'; 				// Your email
 	$config['name'] = 'Hand Drawn Design Museum'; 						// The Title of the publication
 	$config['description'] = 'Draw your own interpretation of descriptive text written by our curators. Submit your drawing to the Cooper-Hewitt Museum database. Your drawings will help us visualize collections objects that have never been photographed.'; 		// The description of the publication
-	$config['delivered_on'] = 'sunday'; 						// When is the publication delivered? Complete the sentence in English (like 'mondays' or '3rd and 5th of the month')
+	$config['delivered_on'] = 'Sundays'; 						// When is the publication delivered? Complete the sentence in English (like 'mondays' or '3rd and 5th of the month')
 	$config['send_timezone_info'] = 'false'; 					// Send an ISO 8601 timestamp to the /edition/ endpoint?
 	$config['send_delivery_count'] = 'false'; 					// Send the number of deliveries so far?
 
@@ -37,21 +37,21 @@
 	);
 	*/
 
-	$config['config'][] = array(
-		'type' => 'text', // Type, can be text, radio, select, checkbox
-		'name' => 'test_text', // What will the value be stored as?
-		'label' => 'Write Something Here' // What will be shown to the user?
+//	$config['config'][] = array(
+//		'type' => 'text', // Type, can be text, radio, select, checkbox
+//		'name' => 'test_text', // What will the value be stored as?
+//		'label' => 'Write Something Here' // What will be shown to the user?
 		
 		// The following are not sent to BERGCloud, but are used in the validate_config endpoint.
 		// If you do not need to use these, remove the comma from the end of the previous line
 
-		'maxlength' => 50,
-		'minlenth' => 10,
+	//	'maxlength' => 50,
+	//	'minlenth' => 10,
 
 		// Want to use a regex to check the input? Put the regex here:
-		'regex' => "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/i" // This one checks whether or not it is a valid email
+	//	'regex' => "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/i" // This one checks whether or not it is a valid email
 
-	);
+//	);
 
 	// End copy and paste
 

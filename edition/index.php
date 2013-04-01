@@ -15,8 +15,8 @@
 	//	3: changes every month
 	//	4: different every time
 
-	eTag(1);
-	charset();
+//	eTag(1);
+//	charset();
 
 	// This must be be the first line of code on this page, otherwise you'll get a 'headers not sent' error
 
@@ -25,8 +25,16 @@
 	makeHeader();
 
 	// Put your code under here:
+	?>
+		<img src="http://media.cooperhewitt.org.s3.amazonaws.com/2013/03/01/Top-Banner.png"/>
+		<div class="TMSContent">Text pulled from TMS gets inserted here. The text would be the description field for the object.</div>
+		<div class="ObjShortURL">http://cprhwi.tt/o/2Ds7P</div>
+		<div class="SubmitBlurb"><br> SUBMIT YOUR DRAWING<br>TO THE COOPER HEWITT<br>COLLECTION DATABASE VIA<br>TWITTER OR INSTAGRAM #HDDD</div>
+		<br>
+		<br>
+    <?php
 
-	print_r($_GET); // Comment out this line. It makes sure you are receiving the params
+/*	print_r($_GET); // Comment out this line. It makes sure you are receiving the params */
 
 	// Now include the footer
 	makeFooter();

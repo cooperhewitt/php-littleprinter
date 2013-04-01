@@ -1,16 +1,14 @@
-{utf8_headers}<!DOCTYPE html> 
+<!DOCTYPE html> 
 <html>
 <head>
-	<title>{$cfg.site_name|escape}{if $page_title} | {$page_title|escape}{/if}</title>
+	<title>Hand Drawn Design Museum</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" type="text/css" media="all" href="{$cfg.abs_root_url}css/littleprinter.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="{$cfg.abs_root_url}css/littleprinter-cooperhewitt.css" />
-	{$extra_head}
+	<link rel="stylesheet" type="text/css" media="all" href="../style.css" />
 </head>
 <body>
 
-<!-- <div id="littleprinter">
 
+<<<<<<< HEAD
      {if 0}
      <img src="{$cfg.abs_root_url}icon.png" height="55" width="55" />
      {/if}
@@ -24,3 +22,5 @@
 	<div class="ObjShortURL">http://cprhwi.tt/o/2Ds7P</div>
 </body>
 </html>
+=======
+>>>>>>> moved stuff around so it works in MAMP
