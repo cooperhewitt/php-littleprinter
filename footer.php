@@ -1,13 +1,12 @@
-			</div>
+</div>
 
-			<footer>
+	<div id="footer">
+		<div id="cooperhewitt">Smithsonian Cooper-Hewitt National Design Museum</div>
+	</div>
 
-				<!-- Put footer code here -->
+	</div>
 
-			</footer>
+</div>
 
-		</div>
-
-	</body>
-
+</body>
 </html>
