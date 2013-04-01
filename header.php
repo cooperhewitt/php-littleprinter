@@ -1,26 +1,21 @@
-<!DOCTYPE html>
+{utf8_headers}<!DOCTYPE html> 
 <html>
+<head>
+	<title>{$cfg.site_name|escape}{if $page_title} | {$page_title|escape}{/if}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" media="all" href="{$cfg.abs_root_url}css/littleprinter.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="{$cfg.abs_root_url}css/littleprinter-cooperhewitt.css" />
+	{$extra_head}
+</head>
+<body>
 
-	<head>
+<div id="littleprinter">
 
-		<title>Your Publication</title>
+     {if 0}
+     <img src="{$cfg.abs_root_url}icon.png" height="55" width="55" />
+     {/if}
 
-		<link rel="stylesheet" type="text/css" href="../framework.css">
-		<link rel="stylesheet" type="text/css" href="../style.css">
-	
-	</head>
+     <h1>Object of the Day</h1>
 
-	<body>
 
-		<div id="wrap">
-
-			<header>
-
-				<!-- Put stuff here -->
-
-			</header>
-
-			<div id="main">
-
-				<!-- Anything after here should probably come from the /edition/ endpoint -->
 				
