@@ -1,8 +1,8 @@
 </div>
 
-	<div id="footer">
-		<div id="cooperhewitt">Smithsonian Cooper-Hewitt National Design Museum</div>
-	</div>
+	<div class="SubmitBlurb"><br> SUBMIT YOUR DRAWING<br>TO THE COOPER HEWITT<br>COLLECTION DATABASE VIA<br>TWITTER OR INSTAGRAM #HDDD</div>
+	<br>
+	<br>
 
 	</div>
 
