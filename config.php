@@ -5,10 +5,10 @@
 
 	$config = array();
 
-	$config['owner_email'] = 'email@example.com'; 				// Your email
-	$config['name'] = 'Publication Title'; 						// The Title of the publication
-	$config['description'] = 'Publication Description'; 		// The description of the publication
-	$config['delivered_on'] = 'every day'; 						// When is the publication delivered? Complete the sentence in English (like 'mondays' or '3rd and 5th of the month')
+	$config['owner_email'] = 'shellyk@si.edu'; 				// Your email
+	$config['name'] = 'Hand Drawn Design Museum'; 						// The Title of the publication
+	$config['description'] = 'Draw your own interpretation of descriptive text written by our curators. Submit your drawing to the Cooper-Hewitt Museum database. Your drawings will help us visualize collections objects that have never been photographed.'; 		// The description of the publication
+	$config['delivered_on'] = 'sunday'; 						// When is the publication delivered? Complete the sentence in English (like 'mondays' or '3rd and 5th of the month')
 	$config['send_timezone_info'] = 'false'; 					// Send an ISO 8601 timestamp to the /edition/ endpoint?
 	$config['send_delivery_count'] = 'false'; 					// Send the number of deliveries so far?
 
@@ -23,7 +23,7 @@
 
 	  	Here are some examples:
 
-	*/
+	
 
 	$config['config'][] = array(
 		'type' => 'select', // Type, can be text, radio, select, checkbox
@@ -35,11 +35,12 @@
 			'Option Three' => 'option_three'
 		)
 	);
+	*/
 
 	$config['config'][] = array(
 		'type' => 'text', // Type, can be text, radio, select, checkbox
 		'name' => 'test_text', // What will the value be stored as?
-		'label' => 'Write Something Here', // What will be shown to the user?
+		'label' => 'Write Something Here' // What will be shown to the user?
 		
 		// The following are not sent to BERGCloud, but are used in the validate_config endpoint.
 		// If you do not need to use these, remove the comma from the end of the previous line
