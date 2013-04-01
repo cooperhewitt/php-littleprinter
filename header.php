@@ -22,8 +22,5 @@
 	<img src="http://media.cooperhewitt.org.s3.amazonaws.com/2013/03/01/Top-Banner.png"/>
 	<div class="TMSContent">Text pulled from TMS gets inserted here. The text would be the description field for the object.</div>
 	<div class="ObjShortURL">http://cprhwi.tt/o/2Ds7P</div>
-	<div class="SubmitBlurb"><br> SUBMIT YOUR DRAWING<br>TO THE COOPER HEWITT<br>COLLECTION DATABASE VIA<br>TWITTER OR INSTAGRAM #HDDD</div>
-	<br>
-	<br>
 </body>
 </html>
