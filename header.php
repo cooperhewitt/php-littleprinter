@@ -9,13 +9,15 @@
 </head>
 <body>
 
-<div id="littleprinter">
+<!-- <div id="littleprinter">
 
      {if 0}
      <img src="{$cfg.abs_root_url}icon.png" height="55" width="55" />
      {/if}
 
      <h1>Object of the Day</h1>
+     
+     -->
 
 
 				
